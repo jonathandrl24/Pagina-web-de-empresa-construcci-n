@@ -7,3 +7,7 @@ body {
   margin-bottom: 20px;
   color: #000000;
 }
+
+.bg-dark {
+  background: #100094;
+}

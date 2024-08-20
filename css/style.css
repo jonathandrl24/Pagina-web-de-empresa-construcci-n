@@ -1,39 +1,53 @@
-/* Carousel styling */
-#introCarousel,
-.carousel-inner,
-.carousel-item,
-.carousel-item.active {
-  height: 100vh;
+.formthree {
+  background: #f7f7f7;
 }
 
-.carousel-item:nth-child(1) {
-  background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+.ptb-100 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+} 
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
-.carousel-item:nth-child(2) {
-  background-image: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+.formthree .form-control {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  font-size: 13px;
+  border-bottom: 1px solid #d3d3d3;
+  background: transparent;
+  font-family: 'Arial';
 }
 
-.carousel-item:nth-child(3) {
-  background-image: url('https://mdbootstrap.com/img/Photos/Others/images/78.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+form .btn {
+  border-radius: 0 !important;
 }
 
-/* Height for devices larger than 576px */
-@media (min-width: 992px) {
-  #introCarousel {
-    margin-top: -58.59px;
-  }
+.formthree form button.btn {
+  margin: 30px auto;
+  display: block;
+  padding: 11px 32px;
+  background: #100094;
+  border: 1px solid #4285f4;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
-.navbar .nav-link {
-  color: #fff !important;
+
+.formthree .btn-primary.focus, .formthree .btn-primary:hover {
+  background-color: transparent;
+  color: #4285f4;
+  border: 1px solid #4285f4 !important;
 }
+
